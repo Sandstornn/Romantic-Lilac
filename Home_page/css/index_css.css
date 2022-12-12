@@ -1,0 +1,53 @@
+/**제목에 쓰려고 가져온 구글 폰트**/
+@import url('https://fonts.googleapis.com/css2?family=Romanesco&display=swap');
+/**nav 목록에 쓸 구글 폰트**/
+@import url('https://fonts.googleapis.com/css2?family=Nabla&family=Romanesco&display=swap');
+body {
+	margin:0px;
+}
+
+a {
+	text-decoration:none;
+}
+
+#index_Home_page {
+	display: grid;
+	grid-template-columns: minmax(200px,1fr) minmax(900px,4.5fr);
+	background-color: #5F79A5;
+}
+
+#index_Home_page #title_Home_page {
+	font-size:25px;
+	font-family: 'Romanesco', cursive;
+	margin: 15px 10px 15px 10px;
+	justify-content:center;
+	text-align:center;
+}
+
+#index_Home_page #title_Home_page h1{
+    margin:0px;	
+}
+#index_Home_page #container_genre{
+	justify-content:center;
+	text-align:center;
+	
+}
+
+#index_Home_page #container_genre ul {
+	display: grid;
+	grid-template-columns: repeat(6,minmax(150px,1fr));
+	list-style: none;
+	justify-content:center;
+	text-align:center;
+	padding: 0px;
+	margin: 0px;
+}
+
+#index_Home_page ul .genre {
+	border: 1px solid #0067A3;
+	font-family: 'Nabla', cursive;
+	height: 116px;
+	line-height:116px;
+	justify-content:center;
+	text-align:center;
+}
