@@ -1,7 +1,7 @@
 /**제목에 쓰려고 가져온 구글 폰트**/
 @import url('https://fonts.googleapis.com/css2?family=Romanesco&display=swap');
 /**nav 목록에 쓸 구글 폰트**/
-@import url('https://fonts.googleapis.com/css2?family=Nabla&family=Romanesco&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
 body {
 	margin:0px;
 }
@@ -45,9 +45,10 @@ a {
 
 #index_Home_page ul .genre {
 	border: 1px solid #0067A3;
-	font-family: 'Nabla', cursive;
+	font-family: 'Fredoka One', cursive;
 	height: 116px;
 	line-height:116px;
 	justify-content:center;
 	text-align:center;
+	font-size:20px;
 }

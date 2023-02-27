@@ -3,107 +3,66 @@
 	<head>
 		<title>Romantic Lilac-my_rating_site</title>
 		<meta charset="utf-8">
-		<style>
-			@import url('https://fonts.googleapis.com/css2?family=Kenia&display=swap');
-			@import url('https://fonts.googleapis.com/css2?family=Rubik+Vinyl&display=swap');
-			header {
-				position: absolute;
-				width: 100%;
-				height: 10em;
-				display: inline-block;
-				background-color: #3065ac;
-				border:1px solid #005282;
-			}
-		    body {
-				display: block;
-				background-color: #fffaf0;
-				margin: 0px auto;
-			}
-			main {
-				position: relative;
-				margin-top: 10em;
-			clear:left;
-			}
-			h1 {
-				display:inline-block;
-				float:left;
-				justify-content: center;
-				height:auto-flow;
-			}
-			a {
-				font-family: 'Kenia', cursive;
-				text-decoration: none;
-			}
-			a:link {color:black;}
-			a:visited {color:black;}
-			a:hover,a:active{text-decoration:underline;text-decoration-color:yellowgreen;}
-			nav {
-				margin-left:18%;
-				height: 10em;
-			}
-			ul {
-				display: block;
-				float: left;
-				list-style: none;
-				margin: 0px;
-				padding: 0px;
-				height: 10em;
-				width:100%;
-			}
-			li {
-				float:left;
-				padding-left: 6em;
-				font-size: 1.7em;
-				display: inline-block;
-				margin: 0px;
-				border: 1px solid #005282;
-				padding-left: 2%;
-				padding-right: 2%;
-				padding-top: 2em;
-				padding-bottom: 2em;
-				height: 1.89em;
-			}
-		</style>
+		<link rel="stylesheet" href="/My_first_rating_site/Home_page/css/index_css.css">
 	</head>
 	<body>
 		<header>
-		<div style="position:absolute;width:18%; height:10em;border:1px solid #005282;">
-		 <h1><a href ="/My_first_rating_site/Home_page/index.html" style="font-family: 'Rubik Vinyl', cursive;">
-			Romantic
-			<br>Lilac
-			</a>
-		  </h1>	
+				
+		<nav id="index_Home_page">
+		<div id="title_Home_page"onclick="location.href='/My_first_rating_site/Home_page/index.html'" style="cursor:pointer">	
+			<h1><a>
+				Romantic
+				<br>Lilac
+				</a>
+			</h1>
+		</div>
+		<div id="container_genre">
+		<ul>
+			<div class="genre" onclick="location.href='/My_first_rating_site/Home_page/movie/index_movie.html'" style="cursor:pointer">
+				<li><a>movie</a></li>
+			<ul>				
+			</ul>
 			</div>
 			
-			<nav>
-		     <ul>		
-			 <li><a href="/My_first_rating_site/Home_page/movie/index_movie.html">Movie</a></li>
-			 <ul>				
-			 </ul>
-			 <li><a href="/My_first_rating_site/Home_page/drama/index_drama.html">Drama</a></li>
-	          <ul>
+			<div class="genre" onclick="location.href='/My_first_rating_site/Home_page/drama/index_drama.html'" style="cursor:pointer">
+				<li><a>drama</a></li>
+	         <ul>
 		
 	           </ul>
-				<li><a href="/My_first_rating_site/Home_page/animation/index_animation.html">Animation</a></li>
+			</div>
+			
+			<div class="genre" onclick="location.href='/My_first_rating_site/Home_page/animation/index_animation.html'" style="cursor:pointer">
+				<li><a>animation</a></li>
                <ul>
 		
 	           </ul>
-				<li><a href="/My_first_rating_site/Home_page/game/index_game.html">Game</a></li>
+			</div>
+				
+			<div class="genre" onclick="location.href='/My_first_rating_site/Home_page/game/index_game.html'" style="cursor:pointer">
+				<li><a>game</a></li>
                <ul>
 		
 	           </ul>
-				<li><a href="/My_first_rating_site/Home_page/music/index_music.html">Music</a></li>
+			</div>
+				
+			<div class="genre" onclick="location.href='/My_first_rating_site/Home_page/music/index_music.html'" style="cursor:pointer">
+				<li><a>music</a></li>
                <ul>
 		
 	           </ul>
-				<li><a href="/My_first_rating_site/Home_page/book/index_book.html">Book</a></li>
+			</div>
+				
+			<div class="genre" onclick="location.href='/My_first_rating_site/Home_page/book/index_book.html'" style="cursor:pointer">
+				<li><a>book</a></li>
                 <ul>
 		
 	           </ul>
-             </ul>
-		   </nav>
+			</div>
+				
+        </ul>
+			</div>
+		</nav>
 		</header>
-		<br>
 		<main>
 			<section>
 		      <iframe width="560" height="315" src="https://www.youtube.com/embed/1ttLx9MbrCI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
