@@ -31,3 +31,17 @@ css-->
 
 javascript-->
 
+
+
+
+
+php-->
+## concatenation operator(문자열 이어 붙이기): str1.str2
+
+## url parameter(url의 파라미터를 통해 값 전달받기): 주소 뒤에 ?를 붙인 후, index=17같이 변수에 값을 넣어준다. 변수가 많을 시 &로 연결해주면 된다. php에서 값을 받을 떄는 $_GET['변수명']으로 받으면 된다.
+
+## nl2br(string): 줄바꿈까지 그대로 웹페이지(html)에 표시하기
+
+## 다른 위치의 파일 내용 가져오기: file_get_contents($file_name); curl();이 있다. file_get_contents()는 내장함수이고, curl()은 라이브러리지만, 보안 이슈 때문에 웬만하면 curl()을 쓰는 걸 추천한다.
+
+## var_dump(변수): 변수의 값 뿐만 아니라, 데이터 타입 및 배열(문자열) 길이 등 필수 정보들을 표현해주는 함수. 디버깅해야할때, 아주 많이 쓸 것 같다. 기억해두자.

@@ -1,15 +1,13 @@
 <!doctype html>
 <html lang = "ko">
 	<head>
-		<title>Romantic Lilac-my_rating_site</title>
+		<title>Romantic Lilac-nav_bar</title>
 		<meta charset="utf-8">
-		<link rel="stylesheet" href="/Romantic-Lilac_ver2/Home_page/css/index_css.css">
+		<link rel="stylesheet" href="./Home_page/css/index_css.css">
 	</head>
 	<body>
-		<header>
-				
 		<nav id="index_Home_page">
-		<div id="title_Home_page"onclick="location.href='/Romantic-Lilac_ver2/Home_page/index.html'" style="cursor:pointer">	
+		<div id="title_Home_page"onclick="location.href='/Romantic-Lilac_ver2/Home_page/index.php'" style="cursor:pointer">	
 			<h1><a>
 				Romantic
 				<br>Lilac
@@ -62,26 +60,5 @@
         </ul>
 			</div>
 		</nav>
-		</header>
-		<main>
-			<section>
-		      <iframe width="560" height="315" src="https://www.youtube.com/embed/1ttLx9MbrCI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-			</section>
-			
-			
-			
-			
-			
-			
-			
-			
-			
-		</main>
-		<footer style="width: 100px;margin: auto;">
-			<form>
-			<input type="search"><input type="submit" value="검색">
-			</form>
-				<a href="/Romantic-Lilac_ver2/Home_page/add_rating.html" target="_self">작품 추가</a>
-		</footer>
 	</body>
 </html>
